@@ -5,10 +5,10 @@
 
 trigger:
 - main
+batch: true
 
 pool:
   vmImage: ubuntu-latest
-  demands: Limit -equals DisAbleParallel 
 
 variables:
   buildConfiguration: 'Release'
